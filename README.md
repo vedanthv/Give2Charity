@@ -85,6 +85,15 @@ To run this project, you will need to add the following environment variables to
 `API_KEY`
 
 `SECRET_API_KEY`
+
+📍Upcoming Features in the Pipeline:
+⏩ Integration with CRED and Paytm to give rewards to the donors.
+⏩ Improving the chatbot to add more features and intents
+⏩ Implementing Dunzo API to help solve the supply chain issue of delivering the essentials from the donor location to the warehouse for distribution.
+⏩ Make a Flutter Application for Play Store and App Store.
+⏩ Migrating from MongoDB to Firebase cloud.
+⏩ Data Analysis and dashboarding statistics for the poverty in India.
+
 ## Team
 
 - [Tanya Arora](https://www.linkedin.com/in/tanya-arora-916baa202/)
