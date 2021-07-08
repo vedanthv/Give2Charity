@@ -43,7 +43,7 @@ Give2Charity bids an effort to bring forth a solution to this problem and reach 
 #### 💰 Payment Gateway Interface
 - Stripe API with Web Integration to accept payments through credit cards, Paytm, Google Pay, PhonePe and UPI.
 
-#### ✅ Machine Learning
+### ✅ Machine Learning
 - DialogFlow was used to develop the intents for the smart AI powered Chatbot with a custom model to train the agent.
 - Deployed and powered by Google Cloud Platform(GCP)
 - Telegram integration with Telegram API and BotFather interface.
