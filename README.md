@@ -5,7 +5,7 @@ Give2Charity is a fully functional web application that has the feature to accep
 
 ![Logo](G2C.png)
 
-## Inspiration
+💡 Inspiration
 
 <p>Wastage of food in restaurants , homes , parties and marriages is a big problem in the world and this is prevalent to a large extent in India as well.
 Without our knowledge, lot of food is wasted in our home whereas the population of India below the poverty line do not get even one square meal a day!</p>
@@ -22,3 +22,31 @@ Give2Charity bids an effort to bring forth a solution to this problem and reach 
 - Feature to upload images of the clothes and other essentials that they would like to donate.
 - A blog to read about the various drives that Give2Charity is carrying out across India.
 - Smooth payment gateway interface supporting all Credit Cards, UPI, Google Pay and Paytm.
+
+## 👩‍💻The Technology Stack
+### ✅ Web Development:
+#### 📍 Wireframing : 
+- Balsamiq Mockups
+
+#### 📍 Frontend Development Stack : 
+- HTML5 and CSS3 for giving structure and styling to the page. 
+- BulmaCSS was also used to style the page. 
+- JavaScript was used for the carousel, loading functionality and fixed headers.
+
+#### 📍 Backend Development Stack : 
+- Complete backend runtime powered by NodeJS V8 engine.
+- ExpressJS and EJS Template Engine to render HTML dynamic pages from the backend.
+- For the blog, signup and login page, volunteer registration page and image upload feature, MongoDB is used as the database.
+- For signup and login authentication, PassportJS package is used.
+- For sending emails to user on signup and login, Nodemailer package is used.
+
+💰 Payment Gateway Interface
+- Stripe API with Web Integration to accept payments through credit cards, Paytm, Google Pay, PhonePe and UPI.
+
+✅ Machine Learning
+- DialogFlow was used to develop the intents for the smart AI powered Chatbot with a custom model to train the agent.
+- Deployed and powered by Google Cloud Platform(GCP)
+- Telegram integration with Telegram API and BotFather interface.
+- To display the bot on the main page of the website: HTML was used for the structure, CSS for the styling and JavaScript was used for the pop up functionality and welcome sound. 
+
+
