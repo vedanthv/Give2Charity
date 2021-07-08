@@ -1,4 +1,3 @@
-
 # Give2Charity - A big step to end poverty
 
 Give2Charity is a fully functional web application that has the feature to accept donations from users. This can be money that can be donated or even food, clothes and other essentials.
@@ -14,7 +13,7 @@ Starvation is one of the major problems in India and along with that the poor po
 
 Give2Charity bids an effort to bring forth a solution to this problem and reach out to as many poor, malnourished and unemployed inhabitants of India by providing a complete, full fledged and easy to use platform with round the clock support that can be used by anyone in the world to donate money, food, clothes and all other essentials and contribute to the noble cause we are tackling in this project.
 
-## 📍Salient Features of Our Application
+## 📍Salient Features of Our Application<br>
 - User friendly homepage with a simple and holistic UI
 - Easy one page navigation and to the point content
 - A smart AI Powered Chatbot to help the user with any queries they have with immediate assistance.
