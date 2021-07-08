@@ -52,4 +52,37 @@ Give2Charity bids an effort to bring forth a solution to this problem and reach 
 ## Demo
 Demo Video Comes Here
 
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/vedanthv/Give2Charity
+```
+
+Go to the project directory
+
+```bash
+  cd Give2Charity
+```
+
+Install dependencies given in requirements.txt
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  nodemoon app.js
+```
+
+## Team
+
+- [Tanya Arora](https://www.linkedin.com/in/tanya-arora-916baa202/)
+- [Vedanth V Baliga](https://www.linkedin.com/in/vedanthbaliga/)
+- [Vishnu Kumar](https://www.linkedin.com/in/vishnu-kumar-98b33a205/)
+
+  
 
