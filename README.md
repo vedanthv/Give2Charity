@@ -40,13 +40,16 @@ Give2Charity bids an effort to bring forth a solution to this problem and reach 
 - For signup and login authentication, PassportJS package is used.
 - For sending emails to user on signup and login, Nodemailer package is used.
 
-💰 Payment Gateway Interface
+#### 💰 Payment Gateway Interface
 - Stripe API with Web Integration to accept payments through credit cards, Paytm, Google Pay, PhonePe and UPI.
 
-✅ Machine Learning
+#### ✅ Machine Learning
 - DialogFlow was used to develop the intents for the smart AI powered Chatbot with a custom model to train the agent.
 - Deployed and powered by Google Cloud Platform(GCP)
 - Telegram integration with Telegram API and BotFather interface.
 - To display the bot on the main page of the website: HTML was used for the structure, CSS for the styling and JavaScript was used for the pop up functionality and welcome sound. 
+
+## Demo
+Demo Video Comes Here
 
 
