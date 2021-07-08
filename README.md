@@ -78,6 +78,13 @@ Start the server
   nodemoon app.js
 ```
 
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file to use **Stripe Payment Integration**
+
+`API_KEY`
+
+`SECRET_API_KEY`
 ## Team
 
 - [Tanya Arora](https://www.linkedin.com/in/tanya-arora-916baa202/)
