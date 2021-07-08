@@ -5,7 +5,7 @@ Give2Charity is a fully functional web application that has the feature to accep
 
 ![Logo](G2C.png)
 
-💡 Inspiration
+## 💡 Inspiration
 
 <p>Wastage of food in restaurants , homes , parties and marriages is a big problem in the world and this is prevalent to a large extent in India as well.
 Without our knowledge, lot of food is wasted in our home whereas the population of India below the poverty line do not get even one square meal a day!</p>
