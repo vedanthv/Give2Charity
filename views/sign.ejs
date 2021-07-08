@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="../register/fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <link rel="stylesheet" href="../register/css/bootstrap-social.css">
+
+  
+    <link rel="stylesheet" href="../register/css/login.css">
+</head>
+<body>
+
+    <div id="login-box">
+        <div class="left">
+          <h1>Log In</h1>
+
+          <form action="/sign" method="POST">
+          
+          
+          <input type="email" name="username" placeholder="E-mail" />
+          
+          <input type="password" name="password" placeholder="Password" />
+          <!-- <input type="password" name="password2" placeholder="Retype password" /> -->
+          
+          <input type="submit" name="signIn_submit" value="Sign me In" />
+
+        </form>
+        <p>Don't have acc <a href="/register" role="button">create new</a></p>
+        </div>
+        
+        <div class="right">
+          <span class="loginwith">Sign in with<br />social network</span>
+          
+          <button class="social-signin facebook">SignIn with facebook</button>
+          <button class="social-signin twitter">SignIn with Twitter</button>
+          
+
+          <a class=" googles btn btn-block btn-social btn-google" href="/auth/google"><span class=" googles2 fa fa-google">G</span>Sign In with Google</a>
+        </div>
+        <div class="or">OR</div>
+      </div>
+
+   
+   
+ 
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

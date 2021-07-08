@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Upload Form</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<style type="text/css">
+		img {
+			width: 180px;
+			height: 100px;
+			margin-left: 75px;
+		}
+		h3{
+			text-align: center;
+			
+		}
+		h2{
+			text-align: center;
+		}
+		
+		.caption{
+			background-color: lightgray;
+		}
+		.givebox{
+			margin-left:335px ;
+			padding-top: 30px;
+		}
+		.col-md-1{
+			width: 35.333333% ;
+		}
+		.col-sm-2{
+			width: 60.666667% ;
+		}
+		.form-control{
+			width: 187% ;
+		}
+		.col-lg-2{
+			margin-left: 222px;
+		}
+		
+	</style>
+    </head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<h2>Upload Pic</h2>
+
+			<form method="post" enctype="multipart/form-data" action="/give">
+				<!-- <div class="form-group row">
+					<div class="col-md-1" style="float: left;">
+						<label for="name" class="col-sm-2 col-form-label">name:</label>
+					</div>
+					<div class="col-sm-3" style="float: left;">
+						<input type="text" name="name" placeholder="Enter your name" class="form-control" required>
+					</div>
+				</div> -->
+				<!-- <div class="form-group row">
+					<div class="col-md-1" style="float: left;">
+						<label for="email" class="col-sm-2 col-form-label">email:</label>
+					</div>
+					<div class="col-sm-3" style="float: left;">
+						<input type="email" name="email" placeholder="Enter your registered email" class="form-control" required>
+					</div> -->
+				<!-- </div> --> 
+				    <div class="givebox">
+
+					
+				<div class="form-group row">
+					<div class="col-md-1" style="float: left;">
+						<label for="location" class="col-sm-2 col-form-label">Location:</label>
+					</div>
+					<div class="col-sm-3" style="float: left;">
+						<input type="text" name="location" placeholder="location" class="form-control" required>
+					</div>
+				</div>
+				<div class="form-group row">
+					<div class="col-md-1" style="float: left;">
+						<label for="placeNearby" class="col-sm-2 col-form-label">place nearby:</label>
+					</div>
+					<div class="col-sm-3" style="float: left;">
+						<input type="text" name="placeNearby" placeholder="Place - Nearby" class="form-control" required>
+					</div>
+				</div>
+				<div class="form-group row">
+					<div class="col-md-1" style="float: left;">
+						<label for="title" class="col-sm-2 col-form-label">Type of donation</label>
+					</div>
+					<div class="col-sm-3" style="float: left;">
+						<input type="text" name="typeofdonation" placeholder="Type of donation" class="form-control" required>
+					</div>
+				</div>
+				<div class="form-group row">
+					<div class="col-lg-2" style="float: left;">
+						<input type="file" name="upl" class="form-control-file" accept="image/*" required>
+					</div>
+				</div>
+				<!-- <div class="form-group row">
+					<div class="col-lg-2" style="float: left;">
+						<input type="file" name="upl1" class="form-control-file" accept="image/*" required>
+					</div>
+				</div> -->
+				<div class="form-group row">
+					<div class="col-lg-2" style="float: left;">
+						<input type="submit" class="btn btn-primary">
+					</div>
+				</div>
+				
+			</form>
+		</div>
+	</div>
+		<hr>
+
+		<div class="row">
+			<h2>All Donations are : </h2>
+			<% for (var i=0; i < data.length; i++) { %>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<div class="caption">
+							<h2 > Donated by : 
+								<%= data[i].name %>
+								
+							</h2>
+							<h3> 
+								<%= data[i].TypeOfDonation %>
+							</h3>
+							<img src="<%= data[i].image1 %>" class="img-thumbnail">
+							<!-- <img src="<%= data[i].image2 %>" class="img-thumbnail"> -->
+							</br>
+							<!-- <form method="post" action="/delete">
+								<input id="prodId" name="prodId" type="hidden" value="<%= data[i]._id %>">
+								<input type="submit" class="btn btn-danger" name="Delete" value="Delete">
+							</form> -->
+						</div>
+					</div>
+				</div>
+				<% } %>
+		</div>
+	</div>
+</body>
+
+</html>

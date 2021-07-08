@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="../register/fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <link rel="stylesheet" href="../register/css/bootstrap-social.css">
+
+  
+    <link rel="stylesheet" href="../register/css/register.css">
+</head>
+<body>
+
+    <div id="login-box">
+        <div class="left">
+          <h1>Sign up</h1>
+
+          <form action="/register" method="POST">
+          
+          <input type="text" name="fname" placeholder="first name" />
+          <input type="text" name="lname" placeholder="last name" />
+          <input type="text" name="address" placeholder="address" />
+          <input type="text" name="state" placeholder="state" />
+          <input type="text" name="city" placeholder="city" />
+          <input type="text" name="country" placeholder="country" />
+          <input type="text" name="pincode" placeholder="pincode" />
+          <input type="email" name="username" placeholder="E-mail" />
+          <!-- <input type="text" name="phoneNo" placeholder="Contact " /> -->
+          <input type="password" name="password" placeholder="Password" />
+          <!-- <input type="password" name="password2" placeholder="Retype password" /> -->
+          
+          <input type="submit" name="signup_submit" value="Sign me up" />
+
+        </form>
+        </div>
+        
+        <div class="right">
+          <span class="loginwith">Sign in with<br />social network</span>
+          
+          <button class="social-signin facebook">SignUp with facebook</button>
+          <button class="social-signin twitter">SignUp with Twitter</button>
+          
+
+          <a class=" googles btn btn-block btn-social btn-google" href="/auth/google"><span class=" googles2 fa fa-google">G</span>SignUp with Google</a>
+        </div>
+        <div class="or">OR</div>
+      </div>
+
+   
+   
+ 
+</body>
+</html>
