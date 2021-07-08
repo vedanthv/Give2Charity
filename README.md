@@ -85,7 +85,7 @@ To run this project, you will need to add the following environment variables to
 
 `SECRET_API_KEY`
 
-📍Upcoming Features in the Pipeline:<br><br>
+### 📍Upcoming Features in the Pipeline:<br><br>
 ⏩ Integration with CRED and Paytm to give rewards to the donors.<br><br>
 ⏩ Improving the chatbot to add more features and intents<br><br>
 ⏩ Implementing Dunzo API to help solve the supply chain issue of delivering the essentials from the donor location to the warehouse for distribution.<br><br>
