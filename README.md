@@ -76,13 +76,17 @@ Start the server
   nodemoon app.js
 ```
 
-## Environment Variables
+## Environment Variables [store in .env file]
 
 To run this project, you will need to add the following environment variables to your .env file to use **Stripe Payment Integration**
 
-`API_KEY`
+`RAZORPAY_KEY_ID`
 
-`SECRET_API_KEY`
+`RAZORPAY_KEY_SECRET`
+
+`GOOGLE_CLIENT_ID`
+
+`GOOGLE_CLIENT_SECRET`
 
 ### 📍Upcoming Features in the Pipeline:<br><br>
 ⏩ Integration with CRED and Paytm to give rewards to the donors.<br><br>
